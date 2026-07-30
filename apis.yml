@@ -1,7 +1,25 @@
 aid: market-iq
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/market-iq.png
 name: Market IQ
-description: Market IQ is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Market IQ is a predictive analytics platform for financial institutions,
+  serving retail banking, investment banking, and capital markets. It ingests both
+  structured and unstructured data, applies natural language processing and AI to
+  generate insights, and delivers bespoke dashboards such as its Social Net Promoter
+  Score and incident-monitoring tools. The company operates from Toronto, New York,
+  and London and reaches customers through login-gated applications rather than a
+  public developer API. Surfaced as a Techstars portfolio company and added to the
+  API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/market-iq/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Analytics
+- Predictive Analytics
+- Financial Services
+- Banking
+- Capital Markets
+- Natural Language Processing
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/market-iq-domain-security.yml
 - type: Website
   url: https://themarketiq.com/
+- type: Login
+  url: https://themarketiq.com/login/
+- type: Support
+  url: https://themarketiq.com/contact.html
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
