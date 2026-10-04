@@ -45,11 +45,11 @@ tags:
 - Company
 - Analytics
 - Predictive Analytics
-- Financial-Services
+- Financial Services
 - Banking
 - Capital Markets
 - Natural Language Processing
-- Machine-Learning
+- Machine Learning
 tags_raw:
 - Company
 - Analytics
@@ -59,6 +59,8 @@ tags_raw:
 - Capital Markets
 - Natural Language Processing
 - Machine Learning
+- Financial-Services
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
