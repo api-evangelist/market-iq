@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/market-iq/integrations
+- https://n8n.io/integrations/market-iq/
+- https://composio.dev/toolkits/market-iq
+- https://monid.ai/tools/market-iq
+checked:
+- https://composio.dev/toolkits/market-iq
+- https://monid.ai/tools/market-iq
+- https://n8n.io/integrations/market-iq/
+- https://zapier.com/apps/market-iq/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
